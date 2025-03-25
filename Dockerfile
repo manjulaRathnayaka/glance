@@ -18,7 +18,7 @@ COPY --from=builder /app/glance .
 # Set ownership so non-root user can access
 RUN chown -R 10001:10001 /app
 
-USER 10001:10001
+USER 10001
 
 EXPOSE 8080
 HEALTHCHECK --timeout=10s --start-period=60s --interval=60s \
