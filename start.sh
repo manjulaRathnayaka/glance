@@ -1,3 +1,4 @@
 #!/bin/sh
-glance --config /mounts/configs/glance.yml
+./main --config /mounts/configs/glance.yml
+
 
