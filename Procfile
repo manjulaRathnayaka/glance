@@ -1,1 +1,1 @@
-glance --config /mounts/configs/glance.yml
+web: ./start.sh
